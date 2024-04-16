@@ -1,64 +1,64 @@
-# 2D feature set
+# 二维特征集
 
-The 2D **feature set**A feature set is a collection of related packages that you can use to achieve specific results in the Unity Editor. You can manage feature sets directly in Unity’s Package Manager. [More info](FeatureSets.html)  
-See in [Glossary](Glossary.html#Featureset) provides creators of 2D experiences in Unity with features covering Foundations, World-building, Animation, Graphics and Physics. Use the 2D feature set to:
+2D**功能集**功能集是相关包的集合，您可以使用它们在Unity编辑器中实现特定结果。您可以直接在Unity的包管理器中管理功能集。[更多信息]（FeatureSet. html）
+请参阅[词汇表]（Glossary. html#Featureset）为Unity中的2D体验创建者提供涵盖基础、世界建设、动画、图形和物理的功能。使用2D功能集：
 
-* Import images including multi-layered Photoshop and Aseprite files as **Sprites**A 2D graphic objects. If you are used to working in 3D, Sprites are essentially just standard textures but there are special techniques for combining and managing sprite textures for efficiency and convenience during development. [More info](Sprites.html)  
-See in [Glossary](Glossary.html#Sprite) and configure them for use in 2D games.
-* Create freeform, tile-based and spline-based 2D game worlds.
-* Create frame-by-frame and bone-based animated characters.
-* Use 2D physics to support simulations with **colliders**An invisible shape that is used to handle physical collisions for an object. A collider doesn’t need to be exactly the same shape as the object’s mesh - a rough approximation is often more efficient and indistinguishable in gameplay. [More info](CollidersOverview.html)  
-See in [Glossary](Glossary.html#Collider) and **joints**A physics component allowing a dynamic connection between Rigidbody components, usually allowing some degree of movement such as a hinge. [More info](Joints.html)  
-See in [Glossary](Glossary.html#joint).
-* Create a range of 2D art styles, including **pixel**The smallest unit in a computer image. Pixel size depends on your screen resolution. Pixel lighting is calculated at every screen pixel. [More info](ShadowPerformance.html)  
-See in [Glossary](Glossary.html#pixel) art.
+*将包括多层Photoshop和Aseprite文件在内的图像导入为**Sprites**2D图形对象。如果您习惯于在3D中工作，Sprites本质上只是标准纹理，但为了在开发过程中提高效率和便利性，有一些特殊的技术可以组合和管理精灵纹理。[更多信息]（Sprites. html）
+请参阅[词汇表]（Glossary. html#Sprite）并配置它们以用于2D游戏。
+*创建自由形式，基于瓦片和基于样条的2D游戏世界。
+*创建逐帧和基于骨骼的动画角色。
+*使用2D物理来支持**碰撞器的模拟**一种用于处理物体物理碰撞的不可见形状。碰撞器不需要与物体的网格形状完全相同——粗略的近似在游戏中通常更有效且难以区分。[更多信息]（CollidersOverview. html）
+参见[词汇表]（Glossary. html#Collider）和**关节**允许刚体组件之间动态连接的物理组件，通常允许某种程度的运动，例如铰链。[更多信息]（关节.html）
+参见[词汇表]（Glossary. html#联合）。
+*创建一系列2D艺术样式，包括**像素**计算机图像中的最小单位。像素大小取决于您的屏幕分辨率。每个屏幕像素都会计算像素光照。[更多信息]（ShadowPerformance. html）
+参见[词汇表]（Glossary. html#像素）艺术。
 
-## Getting started
+## 开始工作
 
 ## Packages
 
-The 2D feature set contains the following packages:
+2D功能集包含以下包：
 
-* [2D Animation](com.unity.2d.animation.html)
-* [2D Aseprite Importer](com.unity.2d.aseprite.html)
-* [2D Pixel Perfect](com.unity.2d.pixel-perfect.html)
-* [2D PSD Importer](com.unity.2d.psdimporter.html)
-* [2D Sprite](com.unity.2d.sprite.html)
-* [2D SpriteShape](com.unity.2d.spriteshape.html)
-* [2D Tilemap Editor](com.unity.2d.tilemap.html)
-* [2D Tilemap Extras](com.unity.2d.tilemap.extras.html)
+*[2D动画]（com. unity.2D.动画.html）
+*[2D Aseprite进口商]（com. unity.2d.aseprite.html）
+*[2D Pixel Perfect]（com. unity.2D.pixle-Perfect.html）
+*[2D PSD进口商]（com. unity.2d.psdimporter.html）
+*[2D精灵]（com. unity.2d.spite.html）
+*[2D SpriteShape]（com. unity.2d.spriteshape.html）
+*[2D Tilemap编辑器]（com. unity.2d.tilemap.html）
+*[2D Tilemap Extras]（com. unity.2d.tilemap.extras.html）
 
 ## Samples
 
-### Asset Store
+### 资产商店
 
-* [Lost Crypt - 2D Sample Project](https://assetstore.unity.com/packages/essentials/tutorial-projects/lost-crypt-2d-sample-project-158673)
-* [Dragon Crashers - 2D Sample Project](https://assetstore.unity.com/packages/essentials/tutorial-projects/dragon-crashers-2d-sample-project-190721)
+*[失落地穴-2D示例项目]（https://assetstore.unity.com/packages/essentials/tutorial-projects/lost-crypt-2d-sample-project-158673）
+*[Dragon Crashers-2D示例项目]（https://assetstore.unity.com/packages/essentials/tutorial-projects/dragon-crashers-2d-sample-project-190721）
 
-### Package samples
+### 包装样品
 
-The following packages have package samples.
+以下软件包具有软件包示例。
 
-* [2D Animation](com.unity.2d.animation.html)
-* [2D Pixel Perfect](com.unity.2d.pixel-perfect.html)
-* [2D SpriteShape](com.unity.2d.spriteshape.html)
-* [2D Tilemap Extras](com.unity.2d.tilemap.extras.html)
+*[2D动画]（com. unity.2D.动画.html）
+*[2D Pixel Perfect]（com. unity.2D.pixle-Perfect.html）
+*[2D SpriteShape]（com. unity.2d.spriteshape.html）
+*[2D Tilemap Extras]（com. unity.2d.tilemap.extras.html）
 
-These are visible in the Package Manager in the Samples sections when you select the package.
+当您选择包时，这些在示例部分的包管理器中可见。
 
-## Related forums
+## 相关论坛
 
-* [2D forum](https://forum.unity.com/forums/2d.53/)
-* [Experimental & Pre-release 2D forum](https://forum.unity.com/forums/2d-experimental-preview.104/)
+*[2D论坛]（https://forum.unity.com/forums/2d.53/）
+*[实验&预发布2D论坛]（https://forum.unity.com/forums/2d-experimental-preview.104/）
 
-## Public roadmap
+## 公共路线图
 
-Find out about upcoming features for 2D development in the [2D roadmap](https://resources.unity.com/unity-engine-roadmap/2d).
+在[2D路线图]（https://resources.unity.com/unity-engine-roadmap/2d）中了解即将推出的2D开发功能。
 
-[](FeatureSets.html)
+[]（FeatureSet. html）
 
-Feature sets
+特征集
 
-[](CharacterAnimationFeature.html)
+[]（CharacterAnimationFeature. html）
 
-3D Characters and Animation feature set
+3D角色和动画功能集
